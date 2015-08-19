@@ -1,0 +1,42 @@
+.pane-node-field-testimonial-select,
+.pane-testimonials {
+	.node-title {display: none;}
+
+	article,
+	.views-row {
+		background: #fff;
+		padding: 1rem;
+		margin: 0 0 1em;
+		display: block;
+		vertical-align: top;
+		-webkit-box-shadow: 0 1px 1px #ddd;
+		-moz-box-shadow: 0 1px 1px #ddd;
+		-o-box-shadow: 0 1px 1px #ddd;
+		box-shadow: 0 1px 1px #ddd;
+		position: relative;
+
+		@media screen and (min-width: 961px) {
+			width: 31%;
+			display: inline-block;
+
+			&:nth-child(2),
+			&.views-row-2,
+			&.views-row-5,
+			&.views-row-8,
+			&.views-row-11 {
+				margin: 0 3.1% 1em;
+			}
+		}
+	}
+	.field-name-field-testmonial-givers-name,
+	.views-field-field-testmonial-givers-name {
+		font-family: $ff-roboto;
+		font-style: italic;
+		font-weight: 700;
+	}
+}
+.front {
+	.pane-node-field-testimonial-select {
+		.pane-title {text-align: center;}
+	}	
+}

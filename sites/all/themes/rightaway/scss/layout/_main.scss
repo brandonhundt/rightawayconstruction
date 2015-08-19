@@ -1,0 +1,61 @@
+// Non-modular or client styles for the .l-content region.
+.l-main {
+	padding: 2em 0;
+}
+
+.l-bottom {
+	padding: 2em 0;
+}
+.center {text-align: center;}
+
+.testimonials-button {
+	p,a {margin: 0;}
+}
+.field-name-body {
+	ol, ul {
+		margin: 0 0 1.25em 2em;
+	}
+}
+.field-name-field-see-also {
+	border-top: 1px solid #ddd;
+	padding: 1em;
+
+	.field-label {
+		font-family: $ff-roboto;
+		margin: .5em 0 1em;
+	}
+	a {
+		display: block;
+		width: 100%;
+		padding: 5px 0;
+	}
+}
+
+.front {
+	.l-middle {
+		background: #fff;
+		padding: 2em 0;
+		ul {
+			margin: 0;
+			li {
+				text-align: center;
+				list-style-type: none;
+
+				&:nth-last-of-type(1) a {border-bottom: 1px solid #ddd;}
+			
+				a {
+					display: block;
+					width: 100%;
+					padding: 5px 0;
+					border-top: 1px solid #ddd;
+					color: $red;
+				
+				&:hover {background: #eee;}
+				}
+			}
+		}
+	}
+	.pane-node-body {
+		h2 {text-align: center;}
+	}
+}

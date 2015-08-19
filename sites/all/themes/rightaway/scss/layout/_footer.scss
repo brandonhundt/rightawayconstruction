@@ -1,0 +1,22 @@
+// Non-modular or client styles for .l-footer region.
+.l-footer {
+	margin: 0;
+	color: #fff;
+	text-shadow: 0 1px 0 #666;
+	float: left; 
+	width: 100%;
+	padding: 1em 0;
+	background: $red;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top: 1px solid $red;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-transition: $red 300ms ease-out;
+    -moz-transition: $red 300ms ease-out;
+    transition: $red 300ms ease-out;
+}
+.l-footer-columns {}
+
