@@ -3,10 +3,27 @@
 .l-header {
 	position: relative;
 	z-index: 10;
-	padding: 5px 0;
+	
+	@media screen and (min-width: 940px) {
+		padding: 5px 0;
+	}
 
 	.top-bar {
 		background: none;
+
+		&.expanded {
+			background: $red;
+
+			.title-area {
+				background: none;
+			}
+
+			.toggle-topbar.menu-icon {
+				a, span {
+					color: #fff;
+				}
+			}
+		}
 
 		.name {
 			h2 {
@@ -92,7 +109,13 @@
     	font-style: italic;
     	text-shadow: 0 0 5px #777;
     	font-size: 18px;
-    	font-family: $ff-roboto;  	
+    	font-family: $ff-roboto;  
+    	float: left !important;
+
+    	@media screen and (min-width: 940px) {
+    		float: right !important;
+    	}	
+
     }
 }
 .front {

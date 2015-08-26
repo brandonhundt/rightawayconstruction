@@ -17,6 +17,34 @@
     -webkit-transition: $red 300ms ease-out;
     -moz-transition: $red 300ms ease-out;
     transition: $red 300ms ease-out;
+
+    .large-6 {
+    	text-align: center !important;
+    	width: 100%;
+
+    	@media screen and (min-width: 940px) {
+				text-align: left !important;
+				width: 50%;
+				
+				&.right {
+					text-align: right !important;
+					width: 50%;
+				}
+			}
+
+			.right {
+				text-align: center !important;
+				width: 100%;
+				margin: 15px 0 0;
+
+				@media screen and (min-width: 940px) {
+					text-align: right !important;
+					width: auto;
+					margin: 0;
+				}
+			}
+
+    }
 }
 .l-footer-columns {}
 

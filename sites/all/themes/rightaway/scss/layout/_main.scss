@@ -8,6 +8,18 @@
 }
 .center {text-align: center;}
 
+.pane-pane-messages,
+.not-front .pane-node-content,
+.pane-node-webform {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media screen and (min-width: 940px) {
+		padding: 0;
+	}	
+}
+
 .testimonials-button {
 	p,a {margin: 0;}
 }
