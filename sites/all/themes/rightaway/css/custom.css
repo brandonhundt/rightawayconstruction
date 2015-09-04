@@ -7533,10 +7533,18 @@ a:hover {
 }
 
 /* line 148, ../scss/layout/_header.scss */
+#homepage-hero {
+  float: left;
+  width: 100%;
+  margin-top: -50px;
+  margin-bottom: 30px;
+}
+
+/* line 155, ../scss/layout/_header.scss */
 .orbit-container {
   height: 600px;
 }
-/* line 151, ../scss/layout/_header.scss */
+/* line 158, ../scss/layout/_header.scss */
 .orbit-container .orbit-slides-container img {
   /* Set rules to fill background */
   min-height: 100%;
@@ -7550,7 +7558,7 @@ a:hover {
   left: 0;
 }
 @media screen and (max-width: 1024px) {
-  /* line 151, ../scss/layout/_header.scss */
+  /* line 158, ../scss/layout/_header.scss */
   .orbit-container .orbit-slides-container img {
     /* Specific to this particular image */
     left: 50%;
@@ -7558,12 +7566,12 @@ a:hover {
     /* 50% */
   }
 }
-/* line 171, ../scss/layout/_header.scss */
+/* line 178, ../scss/layout/_header.scss */
 .orbit-container .orbit-slide-number,
 .orbit-container .orbit-timer {
   display: none;
 }
-/* line 173, ../scss/layout/_header.scss */
+/* line 180, ../scss/layout/_header.scss */
 .orbit-container .orbit-bullets {
   position: absolute;
   top: 570px;
