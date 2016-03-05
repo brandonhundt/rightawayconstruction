@@ -1,0 +1,40 @@
+.view-gallery {
+	.views-field-field-location {
+		color: #555;
+		font-style: italic;
+		margin-bottom: .5em;
+	}
+}
+
+.field-name-field-images,
+.views-field-field-images {
+	margin: 15px 0;
+
+	a {
+		display: inline-block;
+		margin: 0 2% 15px;
+		width: 96%;
+
+		@media screen and (min-width: 601px) {
+			margin: 0 2% 15px 0;
+			width: 23%;
+		}
+	}
+}
+
+.front {
+	.pane-gallery {
+	text-align: center;
+
+		.views-field-field-images a {
+			display: inline-block;
+			margin: 0 2% 15px;
+			width: 96%;
+
+			@media screen and (min-width: 601px) {
+			margin: 0 1% 15px;
+			width: 23%;
+			}
+		}
+	}
+}
